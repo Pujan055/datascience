@@ -1,0 +1,11 @@
+import numpy as np
+
+# Define the coefficients matrix (A) and the constants vector (b) for the system of equations
+A = np.array([[2, 3], [1, -2]])
+b = np.array([8, -4])
+
+# Solve the system of equations using NumPy's linear algebra module (np.linalg)
+x = np.linalg.solve(A, b)
+
+# Print the solution
+print("Solution:", x)
